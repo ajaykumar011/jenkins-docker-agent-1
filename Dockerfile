@@ -1,4 +1,4 @@
   
-FROM trafex/alpine-nginx-php7
+FROM tutum/hello-world
 
-EXPOSE 9090
+EXPOSE 80
