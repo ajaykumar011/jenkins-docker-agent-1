@@ -1,4 +1,5 @@
-  
+# https://github.com/glats/alpine-lamp/  
+# https://hub.docker.com/r/glats/alpine-lamp
 FROM alpine:3.11
 ENV TIMEZONE America/Santiago
 RUN apk update && apk upgrade
