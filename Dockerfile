@@ -1,4 +1,4 @@
   
 FROM trafex/alpine-nginx-php7
 
-EXPOSE 8080
+EXPOSE 9090

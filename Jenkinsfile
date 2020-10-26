@@ -31,7 +31,7 @@ pipeline {
                 script {
                     // https://hub.docker.com/repository/docker/ajaykumar011/docker-as-agent-in-jenkins
                     def container = image.run('-p 80')
-                    def contport = container.port(8080)
+                    def contport = container.port(9080)
                     println image.id + " container is running at host port, " + contport
                     def resp = sh(returnStdout: true,
                                         script: """
