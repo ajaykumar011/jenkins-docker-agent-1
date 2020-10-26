@@ -4,7 +4,7 @@ pipeline {
         timestamps()
     }
     environment {
-        IMAGE = "raspamdocker/osfy"
+        IMAGE = "ajaykumar011/docker-as-agent-in-jenkins"
         REGISTRY = "https://registry.hub.docker.com"
     }
     stages {
