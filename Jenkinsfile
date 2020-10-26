@@ -29,7 +29,7 @@ pipeline {
         stage('test') {
             steps {
                 script {
-                    // https://hub.docker.com/r/tutum/hello-world/
+                    // https://hub.docker.com/repository/docker/ajaykumar011/docker-as-agent-in-jenkins
                     def container = image.run('-p 80')
                     def contport = container.port(80)
                     println image.id + " container is running at host port, " + contport
